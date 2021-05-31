@@ -1,0 +1,26 @@
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.list>li{
+    margin: 15px;
+   position: relative;
+}
+.img{
+
+    display: block;
+    border-radius: 20px;
+}
+.img::before{
+
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  background-color: #000000;
+  z-index: 1;
+}
